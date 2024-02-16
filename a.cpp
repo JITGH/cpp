@@ -1,12 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int a[11];
-    int qmini=1000000;
-    for(int i=0;i<=n;i++){
-        cin>>a[i];
-            qmini=min(qmini,a[i]);
+    int t;
+    cin>>t;
+    while(t--){
+    int n,k;
+    cin>>n>>k;
+    string s="abcdefghijklmnopqrstuvwxyz";
+    string str=s.substr(0,k);
+    while(n--){
+        cout<<str;
     }
-   // qmini=min()
-   cout<<qmini;
+    cout<<endl;
+    }
 }

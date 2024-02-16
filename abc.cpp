@@ -7,7 +7,7 @@ int main(){
             continue;
         }
         else{
-            cout<<j;
+            cout<<j<<" ";
         }
     }
 }
